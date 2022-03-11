@@ -1,0 +1,196 @@
+
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url('../fonts/PoppinsMedium.eot');
+    src: url('../fonts/PoppinsMedium.eot') format('embedded-opentype'),
+         url('../fonts/PoppinsMedium.woff2') format('woff2'),
+         url('../fonts/PoppinsMedium.woff') format('woff'),
+         url('../fonts/PoppinsMedium.ttf') format('truetype'),
+         url('../fonts/PoppinsMedium.svg#PoppinsMedium') format('svg');
+}
+@font-face {
+    font-family: 'PoppinsSemiBold';
+    src: url('../fonts/PoppinsSemiBold.eot');
+    src: url('../fonts/PoppinsSemiBold.eot') format('embedded-opentype'),
+         url('../fonts/PoppinsSemiBold.woff2') format('woff2'),
+         url('../fonts/PoppinsSemiBold.woff') format('woff'),
+         url('../fonts/PoppinsSemiBold.ttf') format('truetype'),
+         url('../fonts/PoppinsSemiBold.svg#PoppinsSemiBold') format('svg');
+}
+
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('../fonts/PoppinsRegular.eot');
+    src: url('../fonts/PoppinsRegular.eot') format('embedded-opentype'),
+         url('../fonts/PoppinsRegular.woff2') format('woff2'),
+         url('../fonts/PoppinsRegular.woff') format('woff'),
+         url('../fonts/PoppinsRegular.ttf') format('truetype'),
+         url('../fonts/PoppinsRegular.svg#PoppinsRegular') format('svg');
+}
+@font-face {
+    font-family: 'OswaldRegular';
+    src: url('../fonts/OswaldRegular.eot');
+    src: url('../fonts/OswaldRegular.eot') format('embedded-opentype'),
+         url('../fonts/OswaldRegular.woff2') format('woff2'),
+         url('../fonts/OswaldRegular.woff') format('woff'),
+         url('../fonts/OswaldRegular.ttf') format('truetype'),
+         url('../fonts/OswaldRegular.svg#OswaldRegular') format('svg');
+}
+
+
+
+.traffic {
+    font-family: 'PoppinsRegular' !important;
+	color:#585858 !important;
+	position:relative;
+	line-height:21px;
+	overflow-x:hidden;
+	margin:0px;
+	padding:0px;
+	background: url(../images/bodybg.gif) repeat;;
+	font-size:14px;
+}
+img{max-width:100%;height:auto;}
+
+
+p {line-height:1.7;margin:0px 0px 20px 0px;word-wrap: break-word; color:#7e7e7e;}
+ul{margin:0px;padding:0px;list-style-type:none;}
+a {outline:none;cursor:pointer;text-decoration:none;outline:none !important;}
+a:hover {text-decoration: none;color:#008bd2;}
+a:link, a:visited {text-decoration: none;-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-o-transition: all .3s ease;-ms-transition: all .3s ease;transition: all .3s ease;}
+
+h1 {font-size:48px;color:#2e2e2e; margin:0px 0px 15px 0px;padding:0px;font-family: 'PoppinsSemiBold'; font-weight:normal;}
+h2 {font-size:32px;color:#2e2e2e; margin:0px 0px 30px 0px;padding:0px 0px 10px 0px;font-family: 'PoppinsSemiBold'; font-weight:normal;}
+h3 {font-size:28px;color:#2e2e2e;margin:0px;text-transform:capitalize; font-weight:normal;font-family: 'PoppinsSemiBold';}
+h4 {font-size:26px;color:#333333;margin:0px 0px 15px 0px;text-transform:capitalize; font-weight:normal;font-family: 'PoppinsSemiBold';}
+h5 {font-size:22px;color:#333333; margin:0px 0px 15px 0px;text-transform:capitalize; font-weight:normal;font-family: 'PoppinsSemiBold';}
+h6 {font-size:18px;color:#333333;margin:0px 0px 15px 0px;text-transform:capitalize; font-weight:normal;font-family: 'PoppinsSemiBold';}
+.clear{clear:both;}
+
+.spacer1px {clear:both;line-height:0;font-size:0;overflow:hidden;height:1px; background:none; margin:0px 0px 0px 0px;width:100%; border:none;}
+.spacer10px {clear:both;line-height:0;font-size:0;overflow:hidden;height:10px; background:none; margin:0px 0px 0px 0px;width:100%; border:none;}
+.spacer20px {clear:both;line-height:0;font-size:0;overflow:hidden;height:20px; background:none; margin:0px 0px 0px 0px;width:100%; border:none;}
+.spacer30px {clear:both;line-height:0;font-size:0;overflow:hidden;height:30px; background:none; margin:0px 0px 0px 0px;width:100%; border:none;}
+
+input:focus, .radio label::before{outline:none!important; }
+
+
+
+.mainbox{ padding:20px; background:#fff; position:relative;}
+
+.topsec_left{}
+.topsec_left img{ border:10px solid #fff;box-shadow: 0 2px 6px rgba(0,0,0,0.3);}
+.topsec_left p{ margin-top:15px;}
+.topsec_left p strong{ color:#0048aa;font-family: 'PoppinsSemiBold'; font-weight:normal;}
+
+.agentadd{}
+.agentadd img{ float:left; max-width:100px; border:5px solid #fff;}
+.agentadd2{ margin:0px 0px 0px 110px; padding:10px 0px 0px 0px;}
+
+
+.topsec_right{ background:url(../images/pattern1.gif) repeat; padding:15px; color:#fff;}
+.topsec_right p{ color:#FFFFFF; margin:0px;}
+
+
+.titlebar{ position: relative; color:#fff; font-size:26px; padding:13px 15px 13px 15px; border-left:5px solid #ff9900; background-color:#595959;font-family: 'OswaldRegular';clear: both;}
+.titlebar span{ float:right;}
+.titlebar span .btn-style-one{ font-size:15px;padding:10px 20px;}
+
+
+.bodywork{ position:relative; background:#f5f5f5; padding:20px;}
+
+.bodywork .graphchart{ position:relative; text-align:center; padding:0px 0px 20px 0px;}
+
+.bodywork_table{ position:relative; margin-bottom:30px;}
+.bodywork_table:last-child{margin-bottom:0px;}
+
+
+.bodywork_table thead{ background-color:#009999;font-family: 'OswaldRegular'; color:#FFFFFF; font-weight:normal;}
+.bodywork_table thead tr:first-child{ background-color:#009999;}
+
+.bodywork_table th{ font-weight:normal; padding:15px; font-size:20px;}
+
+.bodywork_table tr:nth-child(odd) {background: #fff;}
+.bodywork_table tr:nth-child(even) {background: #f0f0f0;}
+
+.bodywork_table td{font-family: 'PoppinsMedium';}
+
+
+
+
+
+
+.btn-style-one{
+	position:relative;
+	padding:12px 20px;
+	color:#fff !important;
+	font-size:14px;line-height:20px;
+	font-weight:500;
+	border:0px solid #189bc9 !important;
+	transition:all 500ms ease;
+	display: inline-block;
+	-webkit-appearance: none;-webkit-border-radius: 0;
+	font-family: 'PoppinsMedium';
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #ff9900;
+	white-space:nowrap;
+}
+
+.btn-style-one:hover{color:#fff !important;transition:all 500ms ease; text-decoration:none;background: #0b9cdf;}
+
+
+
+.footerbox{font-family: 'PoppinsMedium'; background-color:#022051; color:#FFFFFF; text-align:center; padding:10px;}
+
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+
+
+
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+
+
+
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.bodywork_table{overflow: auto;}
+.bodywork_table th{ min-width:100px;font-size: 15px;}
+.bodywork_table td{ min-width:100px;font-size: 12px;}
+.bodywork{padding: 10px;}
+
+
+
+
+
+}
+@media only screen and (max-width: 479px) {
+.bodywork_table{overflow: auto;}
+.bodywork_table th{ min-width:100px;font-size: 15px;}
+.bodywork_table td{ min-width:100px;font-size: 12px;}
+.bodywork{padding: 10px;}
+
+
+
+
+}
+
+
+
+
+
+/* **************** css for Media Query Ends **************** */
+
+
+

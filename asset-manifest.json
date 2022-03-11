@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/HelthoApp/static/css/main.3564ef76.css",
+    "main.js": "/HelthoApp/static/js/main.bf460f50.js",
+    "static/media/doctor.jpg": "/HelthoApp/static/media/doctor.07c743eb2b4b9751486b.jpg",
+    "static/media/bg1.jpg": "/HelthoApp/static/media/bg1.4a17bc2a5de011979c60.jpg",
+    "static/media/search.png": "/HelthoApp/static/media/search.30cf61e60914b834cd86.png",
+    "index.html": "/HelthoApp/index.html",
+    "main.3564ef76.css.map": "/HelthoApp/static/css/main.3564ef76.css.map",
+    "main.bf460f50.js.map": "/HelthoApp/static/js/main.bf460f50.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3564ef76.css",
+    "static/js/main.bf460f50.js"
+  ]
+}
